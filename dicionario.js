@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicial</title>
+    <title>Dicionario</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -20,18 +20,18 @@
     </nav>
 
     <div class="projeto">
-        <h1>Bem vindo ao verificador de diabete</h1>
+        <h1>Dicionario de dados </h1>
         <br>
-        <h2>Objetivo do nosso projeto</h2>
-        <p>Prever se uma pessoa desenvolverá diabetes ou não, de acordo com as algumas características apresentadas em exames aplicando algoritmos de analise de machine learning, com uma acurácia mínima de 70%</p>
-        <br>
-        <h2>Metodologia</h2>
-        <p>Utilizando o banco de dados foi aplicado algoritmos de rede neural com treino e teste</p>
-        <br>
-        <h2>Resultado</h2>
-        <p>Tivemos um bom exito na aplicação do algoritmos, o que resulta neste site com previsor de se voce pode ou não ter um diabete</p>
-    
-    
+        <h2>Aqui demostramos oq vamos precisar para calcular se voce tem ou não diabete</h2>
+        <p>Gravidez: Número de vezes que a mulher esteve grávida.
+        Glicose: Concentração de glicose plasmática 2 horas após um teste de tolerância à glicose oral.
+        PressaoSanguinea: Pressão arterial diastólica (mm/Hg).
+        EspessuraPele: Espessura da dobra cutânea do tríceps (em mm).
+        Insulina: Nível de insulina sérica 2 horas após uma refeição (mu U/ml).
+        IMC: Índice de massa corporal (peso em kg / (altura em m)²).
+        FuncaoPedigreeDiabetes: Função de pedigree de diabetes (também conhecida como Índice de herança genética).
+        Idade: Idade (em anos).
+        Resultado: Variável de classe (0 ou 1).</p>
     </div>
 </body>
 </html>
