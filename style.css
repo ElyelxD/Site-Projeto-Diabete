@@ -1,105 +1,258 @@
+@charset "UTF-8"
+
 *{
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
+    outline: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: rgba(176, 227, 255, 1);
+}
+
+
+
+/*Estilo Header*/
+
+nav{
+    background-color: rgba(85, 160, 199, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 58px;
+
+}
+
+nav .logo{
+    float: left;
+    display: block;
+    padding: 0px 108px;
+    width: 78px;
+    height: 58px;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0px;  
+
+}
+
+.menu li{
+    float: right;
+    display: inline; 
+    display: block;
+    padding: 5px 16px;
+
+}
+
+.menu ul li a {
+    font-family: 'Sura';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30x;
+    color: white;
+    text-decoration:none;
+}
+
+menu ul li a:hover{
+    transition: 0.5s;
+    background-color:rgba(176, 227, 255, 1);
+}
+
+
+
+
+
+
+
+
+/* Estilo da caixa principa*/
+
+.caixa_projeto{
     box-sizing: border-box;
 
-}
-
-#menu-h ul{
-    max-width: 100%;
-    list-style: none;
-    padding-right: 5px;
-    background-color: rgba(12, 59, 10, 0.8);
-    text-align: center;
-}
-
-#menu-h ul li{
-    display: inline;
-}
-
-#menu-h ul li a{
-    color: #FFF;
-    padding: 20px; 
-    display: inline-block;
-    text-decoration: none;
-    transition: background .4s;
-}
-
-#menu-h ul li a:hover{
-    background-color: rgb(5, 235, 120);
-}
-
-.projeto{
-    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-30%,-50%) ;
-    background-color: rgba(12, 59, 10, 0.8);
-    padding: 15px;
-    border-radius: 15px;
-    width: 50%;
-    color: white;
+    width: 1300px;
+    max-width: 1300px;
+    height: 791px;
+    top: 100px;
+    left: 280px;
+    border-radius: 50px;
+ 
+
+    background-color: rgba(85, 160, 199, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
 }
-.contato{
-    font-family: Arial, Helvetica, sans-serif;
+
+.ponto_branco_superior{
+
     position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-30%,-50%) ;
-    background-color: rgba(12, 59, 10, 0.8);
-    padding: 15px;
+    width: 100%;
+    max-width:21px;
+    height: 21px;
+    
+
+    left: 1250px;
+    top: 26px;
     border-radius: 10px;
-    width: 70%;
-    color: white;
+    background: #FFFFFF;
+    display: flex;
 }
 
+.bem_vindo{
 
-
-body{   
-    background-image: linear-gradient(to right, rgb(4, 148, 88), rgb(17,54,71));
-}
-
-.box{
-    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-30%,-50%) ;
-    background-color: rgba(12, 59, 10, 0.8);
-    padding: 15px;
-    border-radius: 15px;
-    width: 50%;
-    color: white;
+    width: 649px;
+    height: 156px;
+
+    left: 619px;
+    top: 5px;
+    font-family: 'Sura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    color: #00304D;
+}
+
+.linha_divisoria_bemvindo_objetivo{
+    position: absolute;
+    width: 100%;
+    max-width: 609px;
+    height: 0px;
+    left: 619px;
+    top: 150px;
+    border: 1px solid #FFFFFF;
+    
+
+}
+
+.objetivo{
+    position: absolute;
+    width: 659px;
+    height: 600px;
+    left: 619px;
+    top: 188px;  
+    font-family: 'Sura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;  
+    color: #00304D;
+}
+
+.imagem_bem_vindo img{
+    position: absolute;
+    width: 100%;
+    max-width: 551px;
+    height: 719px;
+    left: 38px;
+    top: 36px;
+    border-radius: 10px;
+
+}
+
+.ponto_branco_inferior{
+    position: absolute;
+    width: 100%;
+    max-width: 21px;
+    height: 21px;
+    left: 1250px;
+    top: 744px;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+
+.icone_barra{
+    position: absolute;
+    width: 100%;
+    max-width: 73px;
+    height: 58px;
+    left: 108px;
+    top: 6px;
+
+}
+
+/* Estilo da caixa dicionario e verificador*/
+.caixa_dicionario{
+
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    left: 30px;
+    top: 26px;  
+    font-family: 'Sura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;  
+    color: #00304D;
+
+}
+
+.caixa_verificador{
+
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    left: 659px;
+    top: 10px;  
+    font-family: 'Sura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;  
+    color: #00304D;
 }
 
 fieldset{
-     border: 3px solid darkgreen;
+    border: 2px solid #00304D;;
+}
+
+
+fieldset b{
+    font-family: 'Sura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
 }
 
 legend{
-    border: 1px solid darkgreen;
-    padding: 10px;
-    text-align: center;
-    background-color: darkgreen;
-    border-radius: 10px;
+   border: 1px solid #00304D;;
+   padding: px;
+   text-align: center;
+   background-color: #00304D;;
+   border-radius: 10px;
+   color: white;
 }
 
 .inputBox{
-    position: relative;           
+   position: relative;           
 }
 
 .inputUser{
-    background:none;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    color: white;
-    font-size: 15px;
-    width: 100%;
-    letter-spacing: 2px;
+   background:none;
+   border: none;
+   border-bottom: 1px solid white;
+   outline: none;
+   color: white;
+   font-size: 15px;
+   width: 100%;
+   letter-spacing: 2px;
 }
-
 .labelInput{
     position:absolute;
     top: 0px;
@@ -112,11 +265,11 @@ legend{
 .inputUser:valid ~ .labelInput{
     top: -15px;
     font-size: 12px;
-    color: darkgreen;
+    color: #00304D;
 }
 
 #submit{
-    background-image: linear-gradient(to right, rgb(4, 148, 88), rgb(17,54,71));
+    background-color: #00304D;
     width: 100%;
     border: none;
     padding: 15px;
@@ -127,5 +280,30 @@ legend{
 }
 
 #submit:hover{
-    background-image: linear-gradient(to right, rgb(3, 128, 74), rgb(10,50,60));
+    background-color: #00304D;
+}
+
+.girador{
+
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 600px;
+    top: 250px;  
+}
+
+.carregando{
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(0, 0, 0, .1);
+    border-left-color: #00304D;
+    border-radius: 50%;
+    animation: spin 10s linear infinite;
+}
+
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
 }

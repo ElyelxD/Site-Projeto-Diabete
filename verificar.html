@@ -10,74 +10,100 @@
 </head>
 
 <body>
-    <nav id="menu-h">
-        <ul>
-            <li><a href="index.html">Inicial</a></li>
-            <li><a href="dicionario.html">Dicionario</a></li>
-            <li><a href="verificar.html">Verificador</a></li>
-            <li><a href="contato.html">Quem somos?</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagens/icone_barra.jpeg">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Inicial</a></li>
+                    <li><a href="verificar.html">Verificador</a></li>
+                    <li><a href="contato.html">Quem somos?</a></li>             
+                </ul>
+            </div>  
+        </nav> 
 
-    <div class="box">
-        <form action="">
-            <fieldset>
-                <legend><b>Verificardor</b></legend>
-                <br>
-                <div class="inputBox">
-                    <input type="text" name="'name" id="name" class="inputUser" required>
-                    <label for="name" class="labelInput">Nome</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'idade" id="idade" class="inputUser" required>
-                    <label for="name" class="labelInput">Idade</label>
-                </div><br>          
-                <p>Sexo</p>
-                    <input type="radio" name="'genero" id="masculino" value="masculino" required>
-                    <label for="name">Masculino</label>
-                    <input type="radio" name="'genero" id="sexo" value="feminino" required>
-                    <label for="name">Feminino</label>
-                <br><br>
-                <div class="inputBox">
-                    <input type="number" name="'gravidez" id="gravidez" class="inputUser" required>
-                    <label for="name" class="labelInput">Gravidez</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'glicose" id="glicose" class="inputUser" required>
-                    <label for="name" class="labelInput">Glicose</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'pressaosanguinea" id="pressaosanguinea" class="inputUser" required>
-                    <label for="name" class="labelInput">PressaoSanguinea</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'espessurapele" id="espessurapele" class="inputUser" required>
-                    <label for="name" class="labelInput">EspessuraPele</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'insulina" id="insulina" class="inputUser" required>
-                    <label for="name" class="labelInput">Insulina</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'imc" id="imc" class="inputUser" required>
-                    <label for="name" class="labelInput">IMC</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="number" name="'funcaopedigreediabetes" id="funcaopedigreediabetes" class="inputUser" required>
-                    <label for="name" class="labelInput">FuncaoPedigreeDiabetes</label>
-                </div>
-                <br>
-                    <input type="submit" name="'submit" id="submit">
-            </fieldset>
-        </form>
-    </div>
+     </header>
+
+     <main>
+        <div class="caixa_projeto">
+            <div class="caixa_dicionario">
+
+                <h2>Dicionario de dados</h2>
+                <p>Aqui demostramos oq vamos precisar para calcular se voce tem ou não diabete</p>
+                <p><strong>Gravidez:</strong>Número de vezes que a mulher esteve grávida.</p>
+                <p><strong>Glicose:</strong>Concentração de glicose plasmática 2 horas após um teste de tolerância à glicose oral.</p>
+                <p><strong>PressaoSanguinea:</strong> Pressão arterial diastólica (mm/Hg).</p>
+                <p><strong>EspessuraPele:</strong>Espessura da dobra cutânea do tríceps (em mm)</p>
+                <p><strong>Insulina:</strong> Nível de insulina sérica 2 horas após uma refeição (mu U/ml).</p>
+                <p><strong>IMC:</strong> Índice de massa corporal (peso em kg / (altura em m)²)</p>
+                <p><strong>FuncaoPedigreeDiabetes:</strong> Função de pedigree de diabetes (também conhecida como Índice de herança genética)</p>
+                <p><strong>Idade:</strong>(em anos).</p>
+
+            </div>
+            <div class="caixa_verificador">
+                <form action="">
+                    <fieldset>
+                        <legend><b>Verificardor</b></legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="'name" id="name" class="inputUser" required>
+                            <label for="name" class="labelInput">Nome</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'idade" id="idade" class="inputUser" required>
+                            <label for="number" class="labelInput">Idade</label>
+                        </div>        
+                        <p>Sexo</p>
+                            <input type="radio" name="'genero" id="masculino" value="masculino" required>
+                            <label for="name">Masculino</label>
+                            <input type="radio" name="'genero" id="sexo" value="feminino" required>
+                            <label for="name">Feminino</label>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="number" name="'gravidez" id="gravidez" class="inputUser" required>
+                            <label for="number" class="labelInput">Gravidez</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'glicose" id="glicose" class="inputUser" required>
+                            <label for="number" class="labelInput">Glicose</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'pressaosanguinea" id="pressaosanguinea" class="inputUser" required>
+                            <label for="number" class="labelInput">PressaoSanguinea</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'espessurapele" id="espessurapele" class="inputUser" required>
+                            <label for="number" class="labelInput">EspessuraPele</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'insulina" id="insulina" class="inputUser" required>
+                            <label for="number" class="labelInput">Insulina</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'imc" id="imc" class="inputUser" required>
+                            <label for="number" class="labelInput">IMC</label>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="'funcaopedigreediabetes" id="funcaopedigreediabetes" class="inputUser" required>
+                            <label for="number" class="labelInput">FuncaoPedigreeDiabetes</label>
+                        </div>
+                        <br>
+                            <input type="submit" name="'submit" id="submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>        
+     </main>
+    
     <script></script>
 </body>
 </html>
