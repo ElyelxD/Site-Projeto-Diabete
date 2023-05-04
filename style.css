@@ -52,7 +52,7 @@ nav .logo{
     font-family: 'Sura';
     font-style: normal;
     font-size: 25px;
-    line-height: 30x;
+    line-height: 30px;
     color: white;
     text-decoration:none;
 }
@@ -207,10 +207,10 @@ fieldset b{
 }
 
 legend{
-   border: 1px solid #00304D;;
-   padding: px;
+   border: 1px solid #00304D;
+   padding: 1px;
    text-align: center;
-   background-color: #00304D;;
+   background-color: #00304D;
    border-radius: 10px;
    color: white;
 }
@@ -245,7 +245,7 @@ legend{
 }
 
 #submit{
-    background-color: #00304D;
+    background-image: linear-gradient(rgba(85, 160, 199, 1), #00304D);
     width: 100%;
     border: none;
     padding: 15px;
@@ -256,7 +256,7 @@ legend{
 }
 
 #submit:hover{
-    background-color: #00304D;
+    background-image: #00304D;
 }
 
 .girador{
