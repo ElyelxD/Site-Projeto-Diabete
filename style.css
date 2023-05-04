@@ -5,14 +5,14 @@
     margin: 0 auto;
     padding: 0;
     outline: 0;
+    
 }
 
 html, body{
-    height: 100%;
+    min-height: 100vh;
     background-color: rgba(176, 227, 255, 1);
+    overflow-y: hidden;
 }
-
-
 
 /*Estilo Header*/
 
@@ -21,7 +21,7 @@ nav{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
+    width: 1920px;
     height: 58px;
 
 }
@@ -33,7 +33,6 @@ nav .logo{
     width: 78px;
     height: 58px;
 }
-
 
 .menu {
     list-style: none;
@@ -63,13 +62,6 @@ menu ul li a:hover{
     background-color:rgba(176, 227, 255, 1);
 }
 
-
-
-
-
-
-
-
 /* Estilo da caixa principa*/
 
 .caixa_projeto{
@@ -79,15 +71,12 @@ menu ul li a:hover{
     width: 1300px;
     max-width: 1300px;
     height: 791px;
-    top: 100px;
+    top: 80px;
     left: 280px;
     border-radius: 50px;
- 
-
     background-color: rgba(85, 160, 199, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-    
+       
 }
 
 .ponto_branco_superior{
@@ -96,8 +85,6 @@ menu ul li a:hover{
     width: 100%;
     max-width:21px;
     height: 21px;
-    
-
     left: 1250px;
     top: 26px;
     border-radius: 10px;
@@ -110,7 +97,6 @@ menu ul li a:hover{
     position: absolute;
     width: 649px;
     height: 156px;
-
     left: 619px;
     top: 5px;
     font-family: 'Sura';
@@ -118,9 +104,7 @@ menu ul li a:hover{
     font-weight: 400;
     font-size: 36px;
     line-height: 57px;
-
     display: flex;
-
     align-items: center;
     text-align: center;
     color: #00304D;
@@ -134,8 +118,6 @@ menu ul li a:hover{
     left: 619px;
     top: 150px;
     border: 1px solid #FFFFFF;
-    
-
 }
 
 .objetivo{
@@ -160,7 +142,6 @@ menu ul li a:hover{
     left: 38px;
     top: 36px;
     border-radius: 10px;
-
 }
 
 .ponto_branco_inferior{
@@ -172,7 +153,6 @@ menu ul li a:hover{
     top: 744px;
     border-radius: 10px;
     background: #FFFFFF;
-
 }
 
 .icone_barra{
@@ -182,12 +162,11 @@ menu ul li a:hover{
     height: 58px;
     left: 108px;
     top: 6px;
-
 }
 
 /* Estilo da caixa dicionario e verificador*/
-.caixa_dicionario{
 
+.caixa_dicionario{
     position: absolute;
     width: 600px;
     height: 750px;
@@ -199,11 +178,9 @@ menu ul li a:hover{
     font-size: 24px;
     line-height: 28px;  
     color: #00304D;
-
 }
 
 .caixa_verificador{
-
     position: absolute;
     width: 600px;
     height: 750px;
@@ -220,7 +197,6 @@ menu ul li a:hover{
 fieldset{
     border: 2px solid #00304D;;
 }
-
 
 fieldset b{
     font-family: 'Sura';
@@ -300,7 +276,6 @@ legend{
     border-radius: 50%;
     animation: spin 10s linear infinite;
 }
-
 
 @keyframes spin {
     to{
