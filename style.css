@@ -23,7 +23,7 @@ nav{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
+    width: 1879px;
     height: 58px;
 
 }
@@ -265,10 +265,10 @@ legend{
 
 .quem_somos{
     position: absolute;
-    width: 600px;
+    width: 500px;
     height: 750px;
-    left: 659px;
-    top: 10px;  
+    left: 500px;
+    top: 200px;  
     font-family: 'Sura';
     font-style: normal;
     font-weight: 400;
