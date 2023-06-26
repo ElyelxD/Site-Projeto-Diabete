@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 *{
     box-sizing: border-box;
@@ -261,26 +261,18 @@ legend{
     background-image: #00304D;
 }
 
-.girador{
+/* Estilo da caixa quem somos*/
 
+.quem_somos{
     position: absolute;
     width: 600px;
-    height: 600px;
-    left: 600px;
-    top: 250px;  
-}
-
-.carregando{
-    width: 100px;
-    height: 100px;
-    border: 10px solid rgb(0, 0, 0, .1);
-    border-left-color: #00304D;
-    border-radius: 50%;
-    animation: spin 10s linear infinite;
-}
-
-@keyframes spin {
-    to{
-        transform: rotate(360deg);
-    }
+    height: 750px;
+    left: 659px;
+    top: 10px;  
+    font-family: 'Sura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;  
+    color: #00304D;
 }
